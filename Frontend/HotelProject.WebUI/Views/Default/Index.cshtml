@@ -17,9 +17,7 @@
 
         @await Component.InvokeAsync("_SliderPartial")
 
-
         @await Component.InvokeAsync("_ReservationPartial")
-
 
         @await Component.InvokeAsync("_AboutUsPartial")
 
@@ -33,7 +31,7 @@
 
         @await Component.InvokeAsync("_TeamPartial")
 
-        @await Component.InvokeAsync("_SubscribePartial")
+        @await Html.PartialAsync("_SubscribePartial")
 
         @await Component.InvokeAsync("_FooterPartial")
 
