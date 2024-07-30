@@ -1,3 +1,4 @@
---Api Testi ve Swagger (Her entity nin consume ui kýsmý bitmedi, geri dönülecek)
-Temayý ekle
-Register - login
+Onay Bekliyor
+Onaylandý
+Ýptal Edildi
+Bekletiliyor
