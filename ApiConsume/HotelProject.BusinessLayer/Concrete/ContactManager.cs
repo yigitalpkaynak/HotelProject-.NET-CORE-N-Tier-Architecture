@@ -30,7 +30,7 @@ namespace HotelProject.BusinessLayer.Concrete
 
         public List<Contact> TGetList()
         {
-            return new List<Contact>();
+            return _contactDal.GetList();
         }
 
         public void TInsert(Contact t)
