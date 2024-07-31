@@ -2,7 +2,7 @@
 <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
     <div class="container">
         <div class="owl-carousel testimonial-carousel py-5">
-            @foreach(var item in Model)
+            @foreach (var item in Model)
             {
                 <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                     <p>@item.Description</p>
@@ -13,9 +13,15 @@
                             <small>@item.Title</small>
                         </div>
                     </div>
-                    <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 custom-icon-position me-4"></i>
                 </div>
             }
         </div>
     </div>
 </div>
+
+<style>
+    .custom-icon-position {
+        bottom: 1px;
+    }
+</style>

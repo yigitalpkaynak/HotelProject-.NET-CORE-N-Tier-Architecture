@@ -30,6 +30,7 @@ namespace HotelProject.WebApi.Controllers
 			return Ok();
 		}
 
+		//buradaki id yazan yere istek ui dan parametre ile gelecek. bu id api deki / sonrasına denk geliyor.
 		[HttpDelete("{id}")]
 		public IActionResult DeleteStaff(int id)
 		{
