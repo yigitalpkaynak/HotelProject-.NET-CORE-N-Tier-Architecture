@@ -24,7 +24,7 @@
 
         <div class="content-body">
 
-            <div class="container-fluid">
+            <div class="container-fluid mt-3">
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
@@ -38,7 +38,14 @@
         </div>
 
         @await Html.PartialAsync("/Views/AdminLayout/FooterPartial.cshtml")
-        @await Html.PartialAsync("/Views/AdminLayout/ScriptPartial.cshtml")
     </div>
+
+    @await Html.PartialAsync("/Views/AdminLayout/ScriptPartial.cshtml")
 </body>
 </html>
+
+<style>
+    div.content-body {
+        min-height: 900px !important; /* İstediğiniz min-height değerini buraya girin */
+    }
+</style>
