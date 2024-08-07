@@ -1,5 +1,4 @@
-﻿@model ResultInstagramFollowersDto
-
+﻿
 <div class="row">
     <div class="col-lg-3 col-sm-6">
         <div class="card">
@@ -9,14 +8,14 @@
             <div class="row">
                 <div class="col-6 border-right">
                     <div class="pt-3 pb-3 pl-0 pr-0 text-center">
-                        <h4 class="m-1">89k</h4>
-                        <p class="m-0">Friends</p>
+                        <h4 class="m-1">45687</h4>
+                        <p class="m-0">Takipçiler</p>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="pt-3 pb-3 pl-0 pr-0 text-center">
-                        <h4 class="m-1">119k</h4>
-                        <p class="m-0">Followers</p>
+                        <h4 class="m-1">156</h4>
+                        <p class="m-0">Takip Edilenler</p>
                     </div>
                 </div>
             </div>
@@ -30,14 +29,14 @@
             <div class="row">
                 <div class="col-6 border-right">
                     <div class="pt-3 pb-3 pl-0 pr-0 text-center">
-                        <h4 class="m-1">89k</h4>
-                        <p class="m-0">Friends</p>
+                        <h4 class="m-1">76884</h4>
+                        <p class="m-0">Takipçiler</p>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="pt-3 pb-3 pl-0 pr-0 text-center">
-                        <h4 class="m-1">119k</h4>
-                        <p class="m-0">Followers</p>
+                        <h4 class="m-1">500+</h4>
+                        <p class="m-0">Takip Edilenler</p>
                     </div>
                 </div>
             </div>
@@ -46,20 +45,26 @@
 
     <div class="col-lg-3 col-sm-6">
         <div class="card">
-            <div class="social-graph-wrapper widget-instagram">
-                <span class="s-icon"><i class="fa fa-instagram"></i></span>
+            <div class="social-graph-wrapper widget-googleplus" style="background-color:rgb(91,81,216)">
+                <span class="s-icon">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </span>
             </div>
             <div class="row">
                 <div class="col-6 border-right">
                     <div class="pt-3 pb-3 pl-0 pr-0 text-center">
-                        <h4 class="m-1">@Model.followers</h4>
+                        @* @{
+                            double followers = Model.followers;
+                            string formattedFollowers = (followers / 1_000_000).ToString("0", CultureInfo.InvariantCulture) + "M";
+                        } *@
+                        <h4 class="m-1">156551</h4>
                         <p class="m-0">Takipçiler</p>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="pt-3 pb-3 pl-0 pr-0 text-center">
-                        <h4 class="m-1">@Model.following</h4>
-                        <p class="m-0">Takip Ettiklerin</p>
+                        <h4 class="m-1">675</h4>
+                        <p class="m-0">Takip Edilenler</p>
                     </div>
                 </div>
             </div>
@@ -74,14 +79,14 @@
             <div class="row">
                 <div class="col-6 border-right">
                     <div class="pt-3 pb-3 pl-0 pr-0 text-center">
-                        <h4 class="m-1">89k</h4>
-                        <p class="m-0">Friends</p>
+                        <h4 class="m-1">45678</h4>
+                        <p class="m-0">Takipçiler</p>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="pt-3 pb-3 pl-0 pr-0 text-center">
-                        <h4 class="m-1">119k</h4>
-                        <p class="m-0">Followers</p>
+                        <h4 class="m-1">32</h4>
+                        <p class="m-0">Takip Edilenler</p>
                     </div>
                 </div>
             </div>
