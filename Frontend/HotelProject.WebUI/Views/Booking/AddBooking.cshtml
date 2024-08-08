@@ -34,6 +34,18 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
+                                    <input type="text" class="form-control" asp-for="City" placeholder="Şehir" autocomplete="off">
+                                    <label for="name">Şehir</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" asp-for="Country" placeholder="Ülke" autocomplete="off">
+                                    <label for="name">Ülke</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
                                     <input type="email" class="form-control" asp-for="Mail" placeholder="Mail Adresiniz">
                                     <label for="email">Mail Adresiniz</label>
                                 </div>
@@ -53,9 +65,10 @@
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <select class="form-select" id="select1" asp-for="AdultCount">
-                                        <option value="1">Yetişkin 1</option>
-                                        <option value="2">Yetişkin 2</option>
-                                        <option value="3">Yetişkin 3</option>
+                                        <option value="0">0 Yetişkin</option>
+                                        <option value="1">1 Yetişkin</option>
+                                        <option value="2">2 Yetişkin</option>
+                                        <option value="3">3 Yetişkin</option>
                                     </select>
                                     <label for="select1">Yetişkin Sayısı</label>
                                 </div>
@@ -63,9 +76,10 @@
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <select class="form-select" id="select2" asp-for="ChildCount">
-                                        <option value="1">Çocuk 1</option>
-                                        <option value="2">Çocuk 2</option>
-                                        <option value="3">Çocuk 3</option>
+                                        <option value="0">0 Çocuk</option>
+                                        <option value="1">1 Çocuk</option>
+                                        <option value="2">2 Çocuk</option>
+                                        <option value="3">3 Çocuk</option>
                                     </select>
                                     <label for="select2">Çocuk Sayısı</label>
                                 </div>

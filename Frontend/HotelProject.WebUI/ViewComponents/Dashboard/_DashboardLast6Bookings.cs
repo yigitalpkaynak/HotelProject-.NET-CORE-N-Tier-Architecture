@@ -24,6 +24,12 @@ namespace HotelProject.WebUI.ViewComponents.Dashboard
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<ResultLast6BookingDto>>(jsonData);
+
+                foreach (var value in values)
+                {
+                    value.Status = "Onay bekliyor";
+                }
+
                 return View(values);
             }
             return View();
