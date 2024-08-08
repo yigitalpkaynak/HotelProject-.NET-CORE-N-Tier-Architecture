@@ -56,6 +56,13 @@ Manage the core functions of the project via the admin panel.
 
 
 ## Project Screenshots
+![primary](https://github.com/user-attachments/assets/f0fea457-ca72-4eb1-8258-65287bee12ec)
+![secondary](https://github.com/user-attachments/assets/ec21604b-8554-4ca1-bd53-717b2ef657f1)
+![main-dash](https://github.com/user-attachments/assets/e77aa198-97cb-4184-9946-5339faf50cd5)
+![reservations](https://github.com/user-attachments/assets/2bf9c1dd-e5b2-4cab-b79f-519712ee09ff)
+![mail](https://github.com/user-attachments/assets/54855b37-f777-41a2-8baa-ddefed67127f)
+![apis](https://github.com/user-attachments/assets/57b5038a-4a14-4a71-b25a-069111868c4f)
+
 
 
 
