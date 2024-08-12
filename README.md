@@ -35,6 +35,8 @@ To run the project on your local machine, you can follow these steps:
 
 Clone or download the project.
 
+Install the ApiDb.bak file.
+
 Configure the database connection and create the necessary tables.
 
 Open the project in Visual Studio or Visual Studio Code.
